@@ -67,7 +67,7 @@
 								<td><%=enquiry.getEmail() %></td>
 
 								<td><%=enquiry.getContact() %></td>
-								<td><%=enquiry.getCourseid() %></td>
+								<td><%=enquiry.getCourseId() %></td>
 
 
 								<td><a href=''>Update</a></td>

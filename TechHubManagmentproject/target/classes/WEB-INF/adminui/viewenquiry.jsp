@@ -46,9 +46,11 @@
 
 								<th>Contact</th>
 								<th>Course</th>
+								
+								
 
 
-								<th>Take Addmission</th>
+								
 								<th>View Details</th>
 
 							</tr>
@@ -67,7 +69,9 @@
 								<td><%=enquiry.getEmail() %></td>
 
 								<td><%=enquiry.getContact() %></td>
-								<td><%=enquiry.getCourseId() %></td>
+								<td><%=enquiry.getCource() %></td>
+								
+								
 
 
 								<td><a href=''>Update</a></td>

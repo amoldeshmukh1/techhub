@@ -5,100 +5,89 @@ public class EnquiryModel {
 	private String name;
 	private String email;
 	private String contact;
-	private String college;
-	private String university;
-	private String address;
-	private String reference;
-	private boolean status;
-	private String candidateType;
-	private String batchType;
-	private int courseId;
+	private String cource;
+	private String college; 
+	
+	private String status  ; 
+	private String candidatetype  ; 
+	private String batchtype; 
 
-	public String getName() {
-		return name;
+	
+public String getStatus() {
+		return status;
 	}
-
-	public void setName(String name) {
-		this.name = name;
+	public void setStatus(String status) {
+		this.status = status;
 	}
-
-	public String getEmail() {
-		return email;
+	public String getCandidatetype() {
+		return candidatetype;
 	}
-
-	public void setEmail(String email) {
-		this.email = email;
+	public void setCandidatetype(String candidatetype) {
+		this.candidatetype = candidatetype;
 	}
-
-	public String getContact() {
-		return contact;
+	public String getBatchtype() {
+		return batchtype;
 	}
-
-	public void setContact(String contact) {
-		this.contact = contact;
+	public void setBatchtype(String batchtype) {
+		this.batchtype = batchtype;
 	}
-
-	public String getCollege() {
-		return college;
-	}
-
-	public void setCollege(String college) {
-		this.college = college;
-	}
-
+	private String university;  
 	public String getUniversity() {
 		return university;
 	}
-
 	public void setUniversity(String university) {
 		this.university = university;
 	}
-
 	public String getAddress() {
 		return address;
 	}
-
 	public void setAddress(String address) {
 		this.address = address;
 	}
-
 	public String getReference() {
 		return reference;
 	}
-
 	public void setReference(String reference) {
 		this.reference = reference;
 	}
-
-	public boolean isStatus() {
-		return status;
+	private String address;
+	private String reference;
+	
+	
+	
+	
+	
+	public String getCollege() {
+		return college;
 	}
-
-	public void setStatus(boolean status) {
-		this.status = status;
+	public void setCollege(String college) {
+		this.college = college;
 	}
-
-	public String getCandidateType() {
-		return candidateType;
+	public String getName() {
+		return name;
 	}
-
-	public void setCandidateType(String candidateType) {
-		this.candidateType = candidateType;
+	public void setName(String name) {
+		this.name = name;
 	}
-
-	public String getBatchType() {
-		return batchType;
+	public String getEmail() {
+		return email;
 	}
-
-	public void setBatchType(String batchType) {
-		this.batchType = batchType;
+	public void setEmail(String email) {
+		this.email = email;
 	}
-
-	public int getCourseId() {
-		return courseId;
+	public String getContact() {
+		return contact;
 	}
-
-	public void setCourseId(int courseId) {
-		this.courseId = courseId;
+	public void setContact(String contact) {
+		this.contact = contact;
 	}
+	public String getCource() {
+		return cource;
+	}
+	public void setCource(String cource) {
+		this.cource = cource;
+	}
+	
 }
+	
+	

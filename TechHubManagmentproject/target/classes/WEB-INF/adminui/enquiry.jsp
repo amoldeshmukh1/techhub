@@ -39,55 +39,96 @@
       <input type="text" class="form-control"  placeholder="Enter Email" name="email">
   
     </div>
+  </div></div>
+  <!--end-->
+  <div class="row">
+    <div class="col-lg-6 col-sm-6 col-sx-6">
+       <div class="form-group">
+     <label for="Age">College:</label>
+      <input type="text" class="form-control"  placeholder="Enter College" name="college">
+  
+    </div>
   </div>
+  
 
  
-
-<!-- half row ended-->
+<!-- <div class="row">
+    <div class="col-lg-6 col-sm-6 col-sx-6">
+       <div class="form-group">
+     <label for="Age">Course:</label>
+      <input type="text" class="form-control"  placeholder="Enter Course" name="cource">
+  
+    </div>
+  </div> -->
+  
+  <!-- half row ended--> 
     <div class="col-lg-6 col-sm-6 col-sx-6">
     <div class="form-group">
-      <label for="Age">Contact:</label>
-      <input type="text" class="form-control"  placeholder="Enter Contact" name="contact">
+      <label for="Name">status:</label>
+      <input type="text" class="form-control"  placeholder="status" name="status">
     </div>
   </div>
-</div>
-
-
-  <!--end-->
-    <div class="row">
-            <div class="col-lg-6 col-sm-6 col-sx-6">
-    <div class="form-group">
-      <label for="id">College:</label>
-      <input type="text" class="form-control" placeholder="Enter College Name" name="college">
-    </div>
-  </div>
-
-<!-- half row ended--> 
-    <div class="col-lg-6 col-sm-6 col-sx-6">
-    <div class="form-group">
-      <label for="Name">University:</label>
-      <input type="text" class="form-control"  placeholder="Enter University Name" name="university">
-    </div>
-  </div>
-</div>
-
-<div class="row">
-            <div class="col-lg-12 col-sm-12 col-sx-12">
-    <div class="form-group">
-      <label for="id">Address:</label>
-      <textarea class="form-control" placeholder="Enter Your Address" name="address">
-      </textarea>
-    </div>
-  </div>
-
-
-</div>
 
   
-<div class="row">
+  <div class="row">
+    <div class="col-lg-6 col-sm-6 col-sx-6">
+       <div class="form-group">
+     <label for="Age">University:</label>
+      <input type="text" class="form-control"  placeholder="Enter University" name="university">
+  
+    </div>
+  </div>
+  
+  
+  <div class="row">
+    <div class="col-lg-6 col-sm-6 col-sx-6">
+       <div class="form-group">
+     <label for="Age">Address:</label>
+      <input type="text" class="form-control"  placeholder="Enter Address" name="address">
+  
+    </div>
+  </div>
+  
+  
+  
+  
+  <!-- <div class="row">
+    <div class="col-lg-6 col-sm-6 col-sx-6">
+       <div class="form-group">
+     <label for="Age">Reference:</label>
+      <input type="text" class="form-control"  placeholder="Enter Reference" name="reference">
+  
+    </div>
+  </div> -->
+  
+  
+  
+  <div class="col-lg-6 col-sm-6 col-sx-6">
+							<div class="form-group">
+								<label for="Gym">Reference</label> <select
+									class="form-control select2" name="reference"
+									style="width: 100%;">
+									<option value="Whatsapp">Whatsapp</option>
+									<option value="Facebook">Facebook</option>
+									<option value="Friends">Friends</option>
+									<option value="Workshop Or Seminar">Workshop Or Seminar</option>
+									<option value="Any Other Marketing">Any Other Marketing</option>
+
+
+								</select>
+							</div>
+						</div>
+  
+  
+  
+  
+  
+  
+  
+  <div class="row">
             <div class="col-lg-6 col-sm-6 col-sx-6">
     <div class="form-group">
-      <label for="Gym">Type</label>
+      <label for="Gym">Candidatetype </label>
     
                 <select class="form-control select2" name="candidatetype" style="width: 100%;">
                     
@@ -99,57 +140,99 @@
                 </select>
               </div>
   </div>
-  <div class="col-lg-6 col-sm-6 col-sx-6">
-    <div class="form-group">
-      <label for="Gym">Reference</label>
-    
-                <select class="form-control select2" name="reference" style="width: 100%;">
-             <option value="Morning">Whatsapp</option>
-             <option value="Evening">Facebook</option>
-             <option value="Evening">Friends</option>
-             <option value="Evening">Workshop Or Seminar</option>
-             <option value="Evening">Any Other Marketing</option>
-           
-             
-    </select>
-              </div>
-  </div>
-   </div>
-
-    <div class="row">
+  
+  
+  <div class="row">
             <div class="col-lg-6 col-sm-6 col-sx-6">
-    <div class="form-group">
+    <div class="form-group" style="width="100%;">
       
      &nbsp;&nbsp;&nbsp;&nbsp;<label for="Gender">Batch Type:</label><br>
       <label class="radio-inline">
-      &nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="batchtype" value="Hordings">Weekend
+      &nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="batchtype" value="Weekend">Weekend
     </label>
     <label class="radio-inline">
-      &nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="batchtype" value="News Paper">Week Days
+      &nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="batchtype" value="Week Days">Week Days
     </label><br>
     
     </div>
-    
-    
-  </div>
+     </div>
+     
+     
+     
+     
+     
+     
+     <div class="col-lg-6 col-sm-6 col-sx-6">
+							<div class="form-group">
+
+								&nbsp;&nbsp;&nbsp;&nbsp;<label for="Gender">Courses:</label><br>
+								<label class="radio-inline"> &nbsp;&nbsp;&nbsp;&nbsp; <input
+									type="checkbox" name="cource" value="JAVA">
+									&nbsp;&nbsp;JAVA
+								</label>&nbsp;&nbsp;&nbsp;&nbsp; <label class="radio-inline">
+									&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" name="cource"
+									value="PHP"> &nbsp;&nbsp;PHP
+								</label><br>
+
+							</div>
+
+
+						</div>
+     
   
-          <div class="col-lg-6 col-sm-6 col-sx-6">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<!-- half row ended-->
+    <div class="col-lg-6 col-sm-6 col-sx-6">
     <div class="form-group">
-      
-     &nbsp;&nbsp;&nbsp;&nbsp;<label for="Gender">Courses:</label><br>
-      <label class="radio-inline">
-      &nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" name="courseid" value="JAVA"> &nbsp;&nbsp;JAVA
-    </label>&nbsp;&nbsp;&nbsp;&nbsp;
-    <label class="radio-inline">
-      &nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" name="courseid" value="PHP"> &nbsp;&nbsp;PHP
-    </label><br>
-    
+      <label for="Age">Contact:</label>
+      <input type="text" class="form-control"  placeholder="Enter Contact" name="contact">
     </div>
-    
-    
   </div>
+</div>
+
+
   
-  </div>
+
+
+
+
+
+
+
+  
 
 <!-- third row-->
 <div class="row">   
@@ -157,10 +240,7 @@
     <div class="form-group">
     <button type="submit" name="sub" class="btn btn-primary" style="margin-left: 50px;">Submit</button>
      </div>
-   </div>
- </div>
-</div>
-</div>
+   
 </form>
 </div>
 </body>
